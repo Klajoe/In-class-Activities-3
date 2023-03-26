@@ -20,9 +20,9 @@
 	margin-bottom: 5%;
 	padding: 2%;
 }
-.header .title{
+.header title{
 	font-weight: bolder;
-	margin-left: 25px;
+	margin-left: 50px;
 }
 .advertisement{
 	position: absolute;
