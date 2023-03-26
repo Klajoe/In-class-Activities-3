@@ -5,68 +5,51 @@
 	border-color:black;
 	border-width:2px; 
 	background-color:gray; 
-	color:white;
-	position:fixed;
-	top:1%;
-	left:1%;
-}
-.header
-{
-	padding: 5%;
-	text-align: center;
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5%;
-	padding: 2%;
-}
-.header title{
-	font-weight: bolder;
-	margin-left: 50px;
-}
-.advertisement{
-	position: absolute;
-	top: 0;
-	font-size: 12px;
 	color: black;
-	display: flex;
-	justify-content: start;
+	position: absolute;
+	left: 20px;
+	top: 20px;
 	align-items: start;
 	font-size: large;
 }
-.head{
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10%;
-	text-align: center;
-}
-.image {
-	float: left;
-	margin-right: 2%;
-}  
-.text {
-	overflow: auto;
-}
-.image img{
-	width: 150px;
-	height: 200px;
+
+.header{
+	position: relative;
+	left: 10%;
+	padding-left: 10px;
+	text-indent: 30px;
 }
 .logo{
 	float: left;
-}
-.logo img{
-	width: 250px;
-	height:100px
+	border: 50px
 }
 .content{
 	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 2%;
-	font-size: bolder;
+	position: relative;
+	left: 10%;
 }
-.content main{
-	font-size: larger;
-	margin-bottom: 100px;
+.image{
+	position: relative;
+	width: 10px;
+	right: 200px;
+	top: 20px;
+	float: left;
+}
+img{
+	width: 250px;
+}
+.main{
+	position: relative;
+	width: 70%;
+	top: 25px;
+	left: 60px;
+	font-weight: 400;
+	font-size: 18px;
+
+}
+.head{
+	position: relative;
+	width: 20%;
+	left: 25%;
+	margin: 5%;
 }
